@@ -11,9 +11,9 @@ function addItem(item) {
 }
 
 function listItems() {
-  for (let i = 0; i < basket.length; i++)
-  
+  for (let i = 0; i < basket.length; i++) console.log(basket[i]);
 }
+
 // DO NOT MODIFY
 // Used for automated testing
 try {
