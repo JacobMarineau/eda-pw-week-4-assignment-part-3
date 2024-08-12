@@ -14,6 +14,15 @@ function addItem(item) {
   console.log(basket);
   return true;
 }
+
+function listItems() {
+  for (let i = 0; i < basket.length; i++) console.log(basket[i]);
+}
+
+function empty() {
+  while (basket.length) basket.pop();
+  console.log(basket);
+}
 // DO NOT MODIFY
 // Used for automated testing
 try {
