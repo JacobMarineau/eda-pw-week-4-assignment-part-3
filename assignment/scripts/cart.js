@@ -15,14 +15,21 @@ function addItem(item) {
   return true;
 }
 
+console.log(addItem("apples"));
+console.log(addItem("bananas"));
+
 function listItems() {
   for (let i = 0; i < basket.length; i++) console.log(basket[i]);
 }
+
+listItems();
 
 function empty() {
   while (basket.length) basket.pop();
   console.log(basket);
 }
+
+empty();
 // DO NOT MODIFY
 // Used for automated testing
 try {
